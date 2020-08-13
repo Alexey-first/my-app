@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: greenyellow;
+}
+nav {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    background-color: bisque;
+}
+article {
+    font-family: cursive;
+    font-size: 15px;
+}
+.winter {
+    background-color: #00c3ffc2;
+    font-size: larger;
+    
+}
+.spring {
+    background-color: orange;
+    font-size: 150%;
+}
+.summer {
+    background-color: yellow;
+    font-size: 18px;
+}
+.autumn {
+    background-color: gray;
+    font-size: 150%;
+}
+footer {
+    text-align: left;
+}
