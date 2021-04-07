@@ -1,34 +1,70 @@
 body {
-    text-align: center;
-    background-color: greenyellow;
+    position: relative;
+    top: 120px;
+  text-align: center;
+  background-color: rgb(226, 212, 212)
 }
 nav {
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    text-align: left;
-    background-color: bisque;
+    
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  background-color: rgb(127, 233, 41);
+  opacity: 0.5;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  border-radius: 10%;
+  border: 3px solid grey;
+  animation: rainbow 5s infinite;
 }
+
 article {
-    font-family: cursive;
-    font-size: 15px;
+  font-family: cursive;
+  font-size: 15px;
 }
 .winter {
-    background-color: #00c3ffc2;
-    font-size: larger;
-    
+  background-color: #00c3ffc2;
+  font-size: larger;
+  border-radius: 5%;
 }
 .spring {
-    background-color: orange;
-    font-size: 150%;
+  background-color: orange;
+  font-size: 150%;
+  border-radius: 5%;
 }
 .summer {
-    background-color: yellow;
-    font-size: 18px;
+  background-color: yellow;
+  font-size: 18px;
+  border-radius: 5%;
 }
 .autumn {
-    background-color: gray;
-    font-size: 150%;
+  background-color: gray;
+  font-size: 150%;
+  border-radius: 5%;
 }
 footer {
-    text-align: left;
+  text-align: left;
 }
+p {
+  margin-left: 50px;
+}
+@keyframes rainbow {
+    0% {
+        color: #00c3ffc2;
+    }
+    25% {
+        color: orange;
+    }
+    50% {
+        color: yellow;
+    }
+    75% {
+        color: gray;
+    }
+    100% {
+        color: rgb(127, 233, 41);
+    }
+ }
